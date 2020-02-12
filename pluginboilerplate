@@ -8,7 +8,7 @@ using System.Net;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 
-namespace Microsoft.Crm.Sdk.Samples
+namespace EventsAutomation
 {
     /// <summary>
     /// A sandboxed plug-in that can access network (Web) resources.
@@ -16,7 +16,7 @@ namespace Microsoft.Crm.Sdk.Samples
     /// <remarks>Register this plug-in in the sandbox. You can provide an unsecure string
     /// during registration that specifies the Web address (URI) to access from the plug-in.
     /// </remarks>
-    public sealed class CreateRecordAPI : IPlugin
+    public class EventAutomation01 : IPlugin
     {
 
         public void Execute(IServiceProvider serviceProvider)
